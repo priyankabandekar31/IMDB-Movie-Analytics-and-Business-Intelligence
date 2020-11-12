@@ -1,30 +1,27 @@
-# ETL-Pipelines-and-Business-Intelligence-on-IMDB-dataset
+# IMDB-Movie-Analytics-and-Business-Intelligence
 
-## Medium Article
-https://medium.com/@jayshil97/understanding-data-pipeline-integration-and-business-intelligence-efdd0016ebe4
+## Tools Utilized
+These are the tools I have utilized for the following project:
+* Microsoft PowerBI 
+* Microsoft SQL server Management Studio
+* SQL Server Developer Edition
+* Tableau
+* Talend Real-Time Data Platform 7.1
 
-To setup this project install the following softwares
+## Steps of the project:
 
-Talend Real-Time Data Platform 7.1
-SQL Server Developer Edition
-Microsoft SQL server Management Studio
-Tableau
-Microsoft PowerBI 
+### 1. Run the following scripts in SQL Server Management Studio to setup the staging database
 
-1. Run the following scripts in SSMS to setup the staging database
+* The Number - stage tables.sql
+* stg imdb tables - core tables.sql
+* stg imdb tables expanded part 2.sql
+* stg_ml_tables.sql
 
-The Number - stage tables.sql
-stg imdb tables - core tables.sql
-stg imdb tables expanded part 2.sql
-stg_ml_tables.sql
+### 2. Open Talend and setup your database connections and input file connections
 
-2. Open Talend and setup your database connections and input file connections
-
-3. When the connections are successfull run the final job (Runtime 75 mins)
-
-Tableau Dashboards:- https://public.tableau.com/profile/jayshil.jain#!/vizhome/imdb_proj/Dashboard1 
-
-Powerbi Report:- https://drive.google.com/drive/u/3/folders/1H17XUFnp5ZuDNIgjNpxftKLsljYpRR5V
+### 3. After the connections successfully established, you can run the final job
+*Note: the run time may take about 75 minutes.*
+<br>
 
 # Data Warehouse using ER Studio
 
